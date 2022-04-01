@@ -36,7 +36,7 @@ session_start();
 
 
 <?php
-$db=mysqli_connect('localhost', 'chol0032', 'Rambo7460', "chol0032") or die('Error connecting to database server');
+$db=mysqli_connect('localhost', '***', '***', "***") or die('Error connecting to database server');
 $db -> set_charset("utf8"); 
 $dagens = date("Y-m-d");
 $sql = "SELECT * FROM forening WHERE datum >='$dagens' ORDER BY datum ASC";
