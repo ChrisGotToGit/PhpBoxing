@@ -13,7 +13,7 @@ if ($_SESSION['user']=='inloggad'){
         $Datum="0000-00-00";
 }
 
-    $db=mysqli_connect('localhost', 'chol0032', 'Rambo7460', "chol0032") or die('Error connecting to database server');
+    $db=mysqli_connect('localhost', '***', '***', "***") or die('Error connecting to database server');
     $db -> set_charset("utf8"); 
     $query = "INSERT INTO forening (rubrik, tillStallning, datum, Info) VALUES ('$Rubrik', '$Event', '$Datum', '$Info')";
     
