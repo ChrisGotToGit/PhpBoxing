@@ -40,7 +40,7 @@ session_start();
 
 
 if ($_SESSION['user']=='inloggad'){   
-  $db=mysqli_connect('localhost', 'chol0032', 'Rambo7460', "chol0032") or die('Error connecting to database server');
+  $db=mysqli_connect('localhost', '***', '***', "***") or die('Error connecting to database server');
 $db -> set_charset("utf8"); 
 $sql = "SELECT * FROM forening";
 
